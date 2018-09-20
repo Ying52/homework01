@@ -1,0 +1,17 @@
+//身高及體重之單位換算
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+
+        int v1 = scn.nextInt(), v2 = scn.nextInt();
+        float v3 = (float)v1/2.54f, v4 = (float)v2*0.454f;
+
+        System.out.println(v3);
+        System.out.println(v4);
+
+
+    }
+}
