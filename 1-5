@@ -8,7 +8,7 @@ public class Main {
 
         int A = scn.nextInt(), B = scn.nextInt(), C = scn.nextInt();
 
-        if (A>0 || B>0 || C>0 || A<=B || A<=C || B<=C || A+B>C || A+C>B || B+C>A){
+        if (A>0 && B>0 && C>0 && A<=B && A<=C && B<=C && A+B>C || A+C>B || B+C>A){
             System.out.println("True");
         }
         else{
